@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             android:layout_gravity="center_horizontal"
+             tools:context="com.example.fragmentsapp.MenuFragment">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:weightSum="1">
+
+        <ImageButton
+                android:id="@+id/lantern"
+                style="@style/buttons"
+                android:src="@drawable/linterna"
+                android:contentDescription="@string/lantern"/>
+
+        <Space style="@style/space"/>
+
+        <ImageButton
+                android:id="@+id/level"
+                style="@style/buttons"
+                android:src="@drawable/nivel"
+                android:contentDescription="@string/level"/>
+
+        <Space style="@style/space"/>
+
+        <ImageButton
+                android:id="@+id/music"
+                style="@style/buttons"
+                android:src="@drawable/musica"
+                android:contentDescription="@string/music"/>
+
+        <Space style="@style/space"/>
+
+    </LinearLayout>
+
+</FrameLayout>

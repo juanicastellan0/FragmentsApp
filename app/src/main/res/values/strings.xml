@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FragmentsApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lantern">Linterna</string>
+    <string name="level">Nivel</string>
+    <string name="music">Música</string>
+    <string name="tools">Herramientas</string>
+</resources>
